@@ -1,3 +1,4 @@
+//Staff class
 import java.util.Scanner;
 
 public class Staff extends Person{
