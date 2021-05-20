@@ -1,5 +1,5 @@
 package packageexample;
-
+//Academin class
 public class Academic extends PayRoll {
 	private String name;
 	private int salary;
