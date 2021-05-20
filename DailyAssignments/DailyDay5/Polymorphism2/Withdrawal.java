@@ -1,4 +1,4 @@
-
+//Withdrawal class
 public class Withdrawal extends Transaction{
 	
 	double amount;
