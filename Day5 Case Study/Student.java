@@ -1,5 +1,5 @@
 package casestudy1;
-
+//Student class
 public class Student extends Person{
 	 public String program;
 	 public int year;
