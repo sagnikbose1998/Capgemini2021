@@ -1,5 +1,5 @@
 // Person and Subclasses
-
+//PersonMain class
 import java.util.Scanner;
 
 public class PersonMain {
