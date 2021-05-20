@@ -1,4 +1,4 @@
-
+//Shape class
 public class Shape {
 	
 	String color;
