@@ -1,4 +1,5 @@
 //Q.9 count number of words in the given string?
+//Word Counter class
 import java.util.*;
 
 public class WordCounter {
