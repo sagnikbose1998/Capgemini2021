@@ -1,4 +1,4 @@
-
+//Person class
 public class Person {
 	
 	String name;
