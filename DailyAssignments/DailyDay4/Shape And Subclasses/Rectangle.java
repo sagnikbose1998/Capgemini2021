@@ -1,3 +1,4 @@
+//Rectangle class
 import java.util.Scanner;
 
 public class Rectangle extends Shape {
