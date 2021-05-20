@@ -1,5 +1,5 @@
 // Shape and Subclasses 
-
+//ShapeMain class
 import java.util.Scanner;
 public class ShapeMain {
 	
