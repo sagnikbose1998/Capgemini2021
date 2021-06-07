@@ -28,7 +28,7 @@ public class BankSystem {
 
 	// function to create account with data validation for each field
 	public static void CreateAccount() throws IOException {
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));// BufferedReader object creation by Shrijit Majumder
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));// BufferedReader object creation by Sagnik Bose
 		String CustomerName;
 		String Address;
 		String Email;
@@ -154,7 +154,7 @@ public class BankSystem {
 			System.out.println("\nMoney deposition is not possible without any account...");
 		}
 		else {
-			Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+			Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 			if(AccountList.size()==1) {
 				BankCustomer bc1=AccountList.get(AccountList.size()-1);
 				ATMCard ac1=bc1.Card;
@@ -223,7 +223,7 @@ public class BankSystem {
 
 	// function to withdraw money from an account
 	public static void withdraw() {
-		Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+		Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 		if(AccountList.size()==1) {
 			BankCustomer bc1=AccountList.get(AccountList.size()-1);
 			ATMCard ac1=bc1.Card;
@@ -336,7 +336,7 @@ public class BankSystem {
 			System.out.println("\nMinimum two accounts are needed for bank transfer...The system has only one till now...");
 		}
 		else {
-			Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+			Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 			System.out.print("\nEnter the account number from where you want to transfer money : ");
 			int accountNumber=sm.nextInt();
 			int accountNumber1;
@@ -434,7 +434,7 @@ public class BankSystem {
 			System.out.println("\nTransaction is not possible without any account...");
 		}
 		else {
-			Scanner  sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+			Scanner  sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 			CashDispenserMessage();
 			char c='y';
 			int choice;
@@ -459,7 +459,7 @@ public class BankSystem {
 
 	// function to update PIN for the ATM card of an account
 	public static void updatePIN() {
-		Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+		Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 		if(AccountList.size()==1) {
 			BankCustomer bc1=AccountList.get(AccountList.size()-1);
 			ATMCard ac1=bc1.Card;
@@ -546,7 +546,7 @@ public class BankSystem {
 
 	// function to update branch and location for an account
 	public static void updateBranch_Location(){
-		Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+		Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 		if(AccountList.size()==1) {
 			BankCustomer bc1=AccountList.get(AccountList.size()-1);
 			ATMCard ac1=bc1.Card;
@@ -785,7 +785,7 @@ public class BankSystem {
 			System.out.println("\nUpdating is not possible without any account...");
 		}
 		else {
-			Scanner  sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+			Scanner  sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 			int choice;
 			char c='y';
 			messageloop : while(c!='n' && c!='N' && c!='0') {
@@ -821,7 +821,7 @@ public class BankSystem {
 			AccountList.remove(AccountList.size()-1);
 		}
 		else {
-			Scanner  sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+			Scanner  sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 			int choice;
 			char c='y';
 			messageloop : while(c!='n' && c!='N' && c!='0') {
@@ -845,7 +845,7 @@ public class BankSystem {
 
 	// function to close an account by account number
 	public static void closeAccountByAccNo() {
-		Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+		Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 		System.out.print("\nEnter the account number of the account you want to close : ");
 		int accountNumber=sm.nextInt();
 		int temp=0;
@@ -889,7 +889,7 @@ public class BankSystem {
 	// main method for program execution
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		Scanner sm=new Scanner(System.in);// Scanner object creation by Shrijit Majumder
+		Scanner sm=new Scanner(System.in);// Scanner object creation by Sagnik Bose
 		int choice;
 		char c='y';
 		System.out.println("**********Welcome To SBI**********\n");
